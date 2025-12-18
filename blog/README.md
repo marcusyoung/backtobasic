@@ -1,5 +1,5 @@
 ---
-title: Back to Basic
+title: Back to BASIC
 description: A collection of my blog posts
 showToc: false
 syntaxMode: mdx
