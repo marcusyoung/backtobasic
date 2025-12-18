@@ -1,7 +1,7 @@
 ---
 title: Back to Basic
 description: A collection of my blog posts
-showToc: false
+showToc: true
 syntaxMode: mdx
 ---
 
