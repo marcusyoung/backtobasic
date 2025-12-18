@@ -2,7 +2,7 @@
 title: Hello, Flowershow 🌸
 description: My very first post published with Flowershow — testing how markdown looks on the live site.
 date: 2025-06-20
-image: marcus.jpg
+image: /attachments/marcus.jpg
 ---
 ![[marcus.jpg]]
 This is my first post!  
