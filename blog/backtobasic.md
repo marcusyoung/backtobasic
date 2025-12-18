@@ -1,5 +1,5 @@
 ---
-title: Hello, Flowershow 🌸
+title: Hello
 description: My very first post published with Flowershow — testing how markdown looks on the live site.
 date: 2025-06-20
 image: /attachments/marcus.jpg
