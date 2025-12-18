@@ -2,7 +2,7 @@
   "showSidebar": true,
   "theme": "superstack",
   "nav": {
-    "logo": "/blog/logo.jpg",
+    "logo": "logo.jpg",
     "title": "Back to BASIC"
   }
 }
