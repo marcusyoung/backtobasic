@@ -2,7 +2,7 @@
   "showSidebar": true,
   "theme": "superstack",
   "nav": {
-    "logo": "zxlogo.jpg",
+    "logo": "/blog/zxlogo.jpg",
     "title": "My Digital Garden"
   }
 }
