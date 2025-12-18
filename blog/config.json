@@ -1,7 +1,5 @@
 {
   "showSidebar": true,
   "theme": "superstack",
-  "nav": {
-    "logo": "/zxlogo.jpg"
-  }
+  "logo": "/zxlogo.jpg"
 }
