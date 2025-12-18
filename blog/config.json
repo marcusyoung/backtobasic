@@ -1,4 +1,8 @@
 {
   "showSidebar": true,
-  "theme": "superstack"
+  "theme": "superstack",
+  "nav": {
+    "logo": "logo.jpg",
+    "title": "Back to BASIC"
+  }
 }
