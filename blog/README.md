@@ -6,7 +6,7 @@ syntaxMode: mdx
 ---
 
 <List 
-  dir="/blog" 
+  dir="/" 
   slots={{
     headline: "title",
     summary: "description",
