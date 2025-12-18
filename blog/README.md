@@ -2,7 +2,7 @@
 title: Back to Basic
 description: A collection of my blog posts
 showToc: false
-synaxMode: mdx
+syntaxMode: mdx
 ---
 
 <List 
