@@ -2,7 +2,6 @@
   "showSidebar": true,
   "theme": "superstack",
   "nav": {
-    "logo": "zxlogo.jpg",
-    "title": "Back to BASIC"
+    "logo": "zxlogo.jpg"
   }
 }
