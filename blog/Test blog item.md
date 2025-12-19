@@ -6,3 +6,10 @@ image:
 authors: [marcus]
 ---
 Test post
+
+
+# Heading
+More text
+
+# Heading 2
+More text
