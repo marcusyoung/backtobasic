@@ -13,4 +13,5 @@ syntaxMode: mdx
     eyebrow: "date",
     media: "image"
   }}
+  pageSize={5}
 />
