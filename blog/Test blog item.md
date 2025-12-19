@@ -11,6 +11,6 @@ Test post
 ## Heading
 More text
 
-![200](20250823_115451.jpg)
+![200](attachments/20250823_115451.jpg)
 ## Heading 2
 More text
