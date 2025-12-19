@@ -11,5 +11,6 @@ Test post
 ## Heading
 More text
 
+![[20250823_115451.jpg|200]]
 ## Heading 2
 More text
