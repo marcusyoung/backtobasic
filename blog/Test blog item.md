@@ -8,8 +8,8 @@ authors: [marcus]
 Test post
 
 
-### Heading
+## Heading
 More text
 
-### Heading 2
+## Heading 2
 More text
