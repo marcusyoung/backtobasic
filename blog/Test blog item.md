@@ -4,6 +4,6 @@ description: This is a test
 date: 2025-12-19
 image:
 authors:
-	- Marcus
+   - Marcus
 ---
 Test post
