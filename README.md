@@ -1,4 +1,4 @@
 # Back to Basic
 
-Welcome to my blog
+Repo for rediscovering programming in BASIC (and ASM) for the ZX Spectrum Next
 
