@@ -1,0 +1,9 @@
+{
+  "showSidebar": true,
+  "theme": "superstack",
+  "favicon": "favicon.ico",
+  "nav": {
+    "logo": "zxlogo.jpg",
+    "title": "Back to BASIC"
+  }
+}
