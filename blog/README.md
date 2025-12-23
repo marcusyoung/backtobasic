@@ -3,6 +3,7 @@ title: Back to BASIC
 description: A collection of posts as I rediscover programming in BASIC (and ASM) for the ZX Spectrum Next
 showToc: false
 syntaxMode: mdx
+showComments: false
 ---
 
 <List 
@@ -13,4 +14,5 @@ syntaxMode: mdx
     eyebrow: "date",
     media: "image"
   }}
+  pageSize={5}
 />
