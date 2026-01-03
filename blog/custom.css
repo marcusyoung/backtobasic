@@ -1,10 +1,10 @@
 /* set heading levels font sizes */
-h2 {
+.page-body h2 {
     font-size: 1.6rem !important;  
 }
-h3 {
+.page-body h3 {
     font-size: 1.4rem !important;  
 }
-h4 {
+.page-body h4 {
     font-size: 1.2rem !important;  
 }
