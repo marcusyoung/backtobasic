@@ -7,7 +7,7 @@ showComments: false
 ---
 
 <List 
-  dir="/" 
+  dir="/posts" 
   slots={{
     headline: "title",
     summary: "description",
