@@ -15,7 +15,7 @@ I must have been well aware of developments in computing though and the appearan
 
 I bought my ZX81 some time in late 1981 or 1982 from my local WH Smith store in the Gracechurch Centre, Sutton Coldfield. I can't recall exactly when. I know that I was incredibly excited at the time and remember several visits to the store to look at their display and to try it out for myself. I don't think I needed much convincing and bought one using my own money (I would have been 16 or 17 and had some savings from working on Thursday and Friday evenings in Waitrose, Mere Green).
 
-I then got stuck into learning BASIC, using the supplied "ZX81 BASIC Programming" manual and the ZX81 edition of the National Extension College book "30 Hour BASIC" by Clive Prigmore. My trusted Hitachi TRG-295 cassette recorder was used to save and load programmes and I soon upgraded to the wobbly 16K RAM pack secured with Blu Tac (I had the ZX-PANDA version by Stonechip Electronics). The membrane keyboard soon started splitting from all the use it was getting and and bought one of those stick-on keyboards with raised keys. I was lucky to have a small black and white portable TV in my bedroom to hook the ZX81 up to. My dad and I had bought it from an electrical store in Swansea in 1976 when we were staying in a caravan on the Gower so that we could watch the Montreal Olympics. That little TV accompanied me to University and many bed-sits beyond.
+I then got stuck into learning BASIC, using the supplied "ZX81 BASIC Programming" manual and the ZX81 edition of the National Extension College book "30 Hour BASIC" by Clive Prigmore. My trusted Hitachi TRG-295 cassette recorder was used to save and load programmes and I soon upgraded to the wobbly 16K RAM pack secured with Blu Tac (I had the ZX-PANDA version by Stonechip Electronics). The membrane keyboard soon started splitting from all the use it was getting and I bought one of those stick-on keyboards with raised keys. I was lucky to have a small black and white portable TV in my bedroom to hook the ZX81 up to. My dad and I had bought it from an electrical store in Swansea in 1976 when we were staying in a caravan on the Gower so that we could watch the Montreal Olympics. That little TV accompanied me to University and many bed-sits beyond.
 
 Programming was always my main use of the ZX81 and I do not recall buying many games. The only commercial software I remember is "Flight Simulation" by Psion Software. I spent many many hours playing that. 
 
@@ -38,7 +38,21 @@ I have one surviving listing of one of my own programmes, printed using the ZX P
 ![[money-manager.jpg|A scan of part of the Money Manager listing]]
 
 I'll write a separate blog post about "Money Manager", but it was probably the most substantial programme I wrote on the ZX81. I submitted it to one of the magazines. Perhaps unsurprisingly, I never heard anything back!
+## University Years (1983-86)
 
+In September 1983 I headed off to Aberystwyth to study Botany (later switching to Aquatic Biology). One of my University friends was studying Computer Science which I was always slightly envious of. But natural history was another passion of mine and I never even considered Computer Science as an option. I'm guessing A-level maths was probably a requirement and I'd chosen to do A-levels in Biology, Chemistry and Economics.
+
+I'm not sure if my ZX81 went with me or not. I certainly don't remember ever using it there. However, I do have a diary entry from 23 January 1985 noting my frustration that I was unable to get "The Fast One" to load when visiting a friend who lived some distance from campus. I can only assume that this refers to the [database programme](https://spectrumcomputing.co.uk/list?label_id=2160) for the ZX81 by Campbell Systems.
+
+My course did include computing modules, which involved programming in BASIC and FORTRAN. From my now rather sketchy memory, I believe that there was a terminal that allowed interactive programming in BASIC, but the FORTRAN code had to be submitted on paper coding sheets. Operators then created punch cards which we then had to submit for batch processing on the mainframe (typically getting the output a day or so later). Any error in the code meant repeating the entire procedure again.
+
+We also had access to a Sirius 1 micro-computer (a 16-bit computer). My diary entry from 17 January 1985 notes:
+
+>I bought myself a floppy disc today for the Sirius micro-computer. Messed around with the WORDSTAR word processing disc. It's great - can write letters etc. It's a bit complicated though.
+
+I must have become proficient as I ended up writing up my dissertation using it.
+
+I also had access to Colossal Cave Adventure - a text-based adventure game -  via the University mainframe terminals and I spent many an evening in the computer room playing that.
 ## Commodore 16 (1985)
 
 ## Apple IIe (1990)
