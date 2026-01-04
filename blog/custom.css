@@ -8,3 +8,8 @@
 .page-body h4 {
     font-size: 1.2rem !important;  
 }
+
+pre {
+  font-weight: normal;
+  color: black;
+}
