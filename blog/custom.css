@@ -10,6 +10,6 @@
 }
 
 pre {
-  font-weight: normal;
-  color: black;
+  font-weight: normal !important;
+  color: black !important;
 }
