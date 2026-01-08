@@ -4,6 +4,13 @@
   "favicon": "favicon.ico",
   "nav": {
     "logo": "b2blogo.jpg",
-    "title": "Back to BASIC"
+    "title": "Back to BASIC",
+    "social": [
+      {
+        "label": "github",
+        "name": "GitHub Profile",
+        "href": "https://github.com/marcusyoung/backtobasic"
+      }
+    ]
   }
 }
