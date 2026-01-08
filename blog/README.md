@@ -1,6 +1,6 @@
 ---
 title: Back to BASIC
-description: Rediscovering programming in BASIC (and ASM) for the ZX Spectrum Next
+description: A blog about rediscovering programming in BASIC (and ASM) for the ZX Spectrum Next
 showToc: false
 syntaxMode: mdx
 showComments: false
