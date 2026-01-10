@@ -1,11 +1,11 @@
 /* set heading levels font sizes */
-.page-body h2 {
+.rendered-mdx h2 {
     font-size: 1.6rem !important;  
 }
-.page-body h3 {
+.rendered-mdx h3 {
     font-size: 1.4rem !important;  
 }
-.page-body h4 {
+.rendered-mdx h4 {
     font-size: 1.2rem !important;  
 }
 
