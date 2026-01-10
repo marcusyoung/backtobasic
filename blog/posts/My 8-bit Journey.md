@@ -36,7 +36,7 @@ I have one surviving listing of one of my own programmes, printed using the ZX P
 - **Memory management** - checks available RAM before adding transactions
 
 <figure>
-    <img src="money-manager.jpg"
+    <img src="/assets/money-manager.jpg"
          alt="Money Manager programme listing">
     <figcaption>Part of the listing of Money Manager printed using the ZX Printer</figcaption>
 </figure>
