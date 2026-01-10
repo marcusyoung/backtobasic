@@ -97,7 +97,7 @@ Some time later I presented the programme to one of my colleagues. With a a bit 
 
 For a scientific data collection program where losing counts after an hour of microscope work would be crushing, this level of robustness was absolutely critical. We started using the programme straight away, and it was still being used when I moved on to a different job within Anglian Water in 1991. I'm going to write a separate blog post looking at the programme in much more detail as I still have a printed listing of v1.2 (see below).
 
-![Algal Count programme listing (part)](assets/algalcount.jpg Algal Count programme listing (part)")
+![Algal Count programme listing (part)](assets/algalcount.jpg "Algal Count programme listing (part)")
 *Algal Count programme listing (part)*
 ### Amstrad PCW 9512 (1990)
 
