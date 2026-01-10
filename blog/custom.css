@@ -21,3 +21,11 @@ pre {
   font-weight: normal !important;
   color: black !important;
 }
+
+p div ~ em {
+  display: block;
+  text-align: center;
+  font-size: 0.9em;
+  /* Add margin/padding as needed for spacing */
+  margin-top: 8px; 
+}
