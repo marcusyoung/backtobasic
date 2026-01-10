@@ -36,7 +36,7 @@ I have one surviving listing of one of my own programmes, printed using the ZX P
 - **Memory management** - checks available RAM before adding transactions
 
 
-![alt text](assets/money-manager2.jpg "Money Manager programme listing (part)")
+![Money Manager programme listing (part)](assets/money-manager2.jpg "Money Manager programme listing (part)")
 *Money Manager programme listing (part)*
 
 I'll write a separate blog post about "Money Manager", but it was probably the most substantial programme I wrote on the ZX81. I submitted it to one of the magazines. Perhaps unsurprisingly, I never heard anything back!
@@ -85,8 +85,20 @@ I do know that I was keen on text-based adventure games at that time, no doubt d
 > Unfortunately today [the next day!] I solved the adventure - I must be too clever - I thought, god was it worth £11.95 for only 1 days usage.  Decided to send it to Commodore pretending I'd had it as a present and already had it and asking them to exchange it for Atomic Mission - another adventure - I don't know whether they will or not but I hope so!!
 
 ## Start of career
+
+After several temporary jobs, including working in hotels, I got by first "proper" job at the beginning of 1990, as a Biology Technician for Anglian Water Services, based in the Cambridge Laboratory (now long gone).
 ### Apple IIe (1990)
 
+As part of my job, along with other colleagues, I was required to carry out algal counts of samples from Anglian Water's storage reservoirs (such as Rutland Water and Grafham Water). This involved using an inverted microscope to carry out a set number of random counts of the water sample on a specialized microscope slide. From what I recall, this meant setting the magnification, randomly selecting a field of view, and then within that view identifying each species along with a count. This was then repeated a set number of times. At the end of the process a calculation was performed to covert these counts into cells per ml. The final part of the process was completing forms that were submitted to be inputted into a central water quality monitoring database. This was an entirely manual process, recording the counts, performing the calculation, and completing the necessary forms by hand.
+
+At this time we did not have any desktop computers within our section. IBM PC clones were just starting to be introduced in the drinking water analysis section of the laboratory. However, I did spot an old computer stacked away on a shelf. This turned out to be an Apple IIe with dual floppy disk drives and a monitor (an 8-bit computer originally launched in the UK in 1983). I borrowed the Apple IIe and took it back to my bedroom in a shared Victorian terraced house on Homerton Street (demolished some decades ago) and then spent several weeks in my spare time after work writing a program in Applesoft BASIC to automate all the manual processes (apart from the identification and counting itself of course). I don't think I even told my colleagues what I was doing!
+
+Some time later I presented the programme to one of my colleagues. With a a bit of a smirk he started bashing away on the keyboard, randomly entering values and pressing keys. He was convinced that he was going to be able to crash the programme in no time at all.  He failed. I'd done a really thorough job, with lots of error checking and validation. And I was chuffed! 
+
+For a scientific data collection program where losing counts after an hour of microscope work would be crushing, this level of robustness was absolutely critical. We started using the programme straight away, and it was still being used when I moved on to a different job within Anglian Water in 1991. I'm going to write a separate blog post looking at the programme in much more detail as I still have a printed listing of v1.2 (see below).
+
+![Algal Count programme listing (part)](assets/algalcount.jpg Algal Count programme listing (part)")
+*Algal Count programme listing (part)*
 ### Amstrad PCW 9512 (1990)
 
 ## ZX Spectrum Next (2025)
