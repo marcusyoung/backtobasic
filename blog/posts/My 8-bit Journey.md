@@ -35,12 +35,6 @@ I have one surviving listing of one of my own programmes, printed using the ZX P
     
 - **Memory management** - checks available RAM before adding transactions
 
-<figure>
-    <img src="https://backtobasic.dev/posts/assets/money-manager2.jpg"
-         alt="Money Manager programme listing (part)">
-    <figcaption>Money Manager programme listing (part).</figcaption>
-</figure>
-
 
 ![alt text](assets/money-manager2.jpg "Money Manager programme listing (part)")
 
