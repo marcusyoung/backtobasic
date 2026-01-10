@@ -9,6 +9,14 @@
     font-size: 1.2rem !important;  
 }
 
+.site-footer-publication-name h3 {
+    font-size: 1rem !important;
+}
+
+.site-footer-copyright {
+    font-size: 0.8rem !important;
+}
+
 pre {
   font-weight: normal !important;
   color: black !important;
