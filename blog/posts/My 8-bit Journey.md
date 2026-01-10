@@ -35,6 +35,13 @@ I have one surviving listing of one of my own programmes, printed using the ZX P
     
 - **Memory management** - checks available RAM before adding transactions
 
+<figure>
+    <img src="assets/money-manager2.jpg"
+         alt="Money Manager programme listing (part)">
+    <figcaption>Money Manager programme listing (part).</figcaption>
+</figure>
+
+
 ![alt text](assets/money-manager2.jpg "Money Manager programme listing (part)")
 
 I'll write a separate blog post about "Money Manager", but it was probably the most substantial programme I wrote on the ZX81. I submitted it to one of the magazines. Perhaps unsurprisingly, I never heard anything back!
