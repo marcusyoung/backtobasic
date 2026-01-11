@@ -2,7 +2,7 @@
 title: My 8-bit Journey
 description: Looking at the 8-bit computers I have owned and/or programmed on
 date: 2026-01-11
-image:
+image: assets/8-bit-computers.jpg
 authors:
   - marcus
 ---
