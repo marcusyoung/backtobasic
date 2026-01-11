@@ -7,11 +7,13 @@ authors:
   - marcus
 ---
 This post traces my journey from the ZX81 to the Spectrum Next, exploring how those machines shaped my career and current projects.
+
 ## Pre 8-bit
 
 Before owning my first 8-bit computer I'd had no experience with computers or programming at all. None of the subjects I was studying for O-level included any exposure to computers. I remember that there was some sort of terminal access to a computer available in the school as my best friend at the time showed it to me during one lunch break. I don't recall what you had to be studying to get access to it. 
 
 I must have been well aware of developments in computing though and the appearance of new home machines as I was an avid viewer of Tomorrow's World. But the exciting personal gadgets of the time (mid to late 1970s) were electronic calculators and digital watches.
+
 ## ZX81 (1982)
 
 I bought my ZX81 some time in 1982 from my local WH Smith store in the Gracechurch Centre, Sutton Coldfield. I can't recall exactly when. I know that I was incredibly excited at the time and remember several visits to the store to look at their display and to try it out for myself. I don't think I needed much convincing and bought one using my own money (I would have been 16 or 17 and had some savings from working on Thursday and Friday evenings in Waitrose).
@@ -116,6 +118,7 @@ Also in 1990 I bought myself an Amstrad PCW 9512 from Robert Sayle (part of John
 *Amstrad PCW 9512 on my desk (1991)*
 
 The PCW 9512 was an 8-bit computer with a Z80 CPU. The system utilised bank switching to access its 512 KB of RAM, since the 8-bit Z80 CPU could only directly address 64 KB of memory at a time. The PCW 9512 had one 3-inch floppy disk drive and came bundled with the CP/M Plus operating system and the LocoScript word processor software.
+
 ## Transition to IBM Compatibles (1994 onwards)
 
 Some time in 1994, CompuServe UK began heavily marketing their online service. This was during the very early days of public Internet access in the UK, which had only become commercially available in 1992. CompuServe was a closed proprietary network that you had to dial into via a modem using their own infrastructure - not the same as the later dial-up connections to the Internet that became mainstream in the late 1990s. Users connected to CompuServe's private computers and services rather than the broader Internet.
