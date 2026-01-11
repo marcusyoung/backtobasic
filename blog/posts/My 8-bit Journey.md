@@ -122,7 +122,7 @@ Also in 1990 I bought myself an Amstrad PCW 9512 from Robert Sayle (part of John
 
 The PCW 9512 was an 8-bit computer with a Z80 CPU. The system utilised bank switching to access its 512 KB of RAM, since the 8-bit Z80 CPU could only directly address 64 KB of memory at a time. The PCW 9512 had one 3-inch floppy disk drive and came bundled with the CP/M Plus operating system and the LocoScript word processor software.
 
-## Transition to IBM Compatibles (1994 onwards)
+## Transition to IBM Compatibles (1994 -)
 
 Some time in 1994, CompuServe UK began heavily marketing their online service. This was during the very early days of public Internet access in the UK, which had only become commercially available in 1992. CompuServe was a closed proprietary network that you had to dial into via a modem using their own infrastructure - not the same as the later dial-up connections to the Internet that became mainstream in the late 1990s. Users connected to CompuServe's private computers and services rather than the broader Internet.
 
