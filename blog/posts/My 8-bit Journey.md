@@ -141,3 +141,16 @@ In 2024 I started getting nostalgic for the old 8-bit computers of my youth. I b
 In 2025 I became aware of the Spectrum Next project. The Spectrum Next is implemented using an FPGA (Field Programmable Gate Array), a reconfigurable chip that can be programmed to replicate the original Spectrum's hardware at the circuit level. This means it's running genuine hardware logic rather than software emulation - unlike products such as "The Spectrum" which emulate the machine in software - while also allowing enhanced features and complete backward compatibility with the original Spectrum. As I'd missed out on the various Kickstarter campaigns, I bought one of the Next clones - the N-GO from Manuferhi in Spain, which has a lovely mechanical keyboard.
 
 My plans are to get back into programming in BASIC and to also learn Z80 assembly language. I was well aware of assembly back in the 1980s, but I think it scared me and I don't even recall ever trying to make a start with it - while my university courses taught BASIC and FORTRAN, assembly language was never covered and would have required a significantly different level of technical knowledge. The Z80 is actually an ideal platform for learning assembly today - it's manageable for a single person to master, unlike modern x86 assembly which is vastly more complex. Similarly, creating a complete game on these 8-bit systems is achievable solo, whereas modern game development typically requires teams with multiple specialised skills. So I'm determined to correct that missed opportunity from the 1980s. I'd like to write a game with graphics and I'll see how far I get. This blog will be about that journey!
+
+
+>[!info]- Credits
+>**License Notice:**  
+>The computer montage in this post is a derivative work by Marcus Young and is licensed under CC BY-NC-SA 4.0.
+>
+>[The Sinclair ZX81, a hobbyist home computer released in the UK in 1981.](https://commons.wikimedia.org/wiki/File:Sinclair-ZX81.png)" by [Evan-Amos](https://commons.wikimedia.org/wiki/User:Evan-Amos), used under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) / incorporated into photo montage
+>
+>[Commodore 16 home computer](https://commons.wikimedia.org/wiki/File:Commodore_16_002f.jpg)" by [Ubcule](https://commons.wikimedia.org/wiki/User:Ubcule), used under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) / incorporated into photo montage
+>
+>[An Apple IIe with two disk drives and a joystick attached running ProDOS.](https://commons.wikimedia.org/wiki/File:Apple_IIe_running_ProDOS.jpg)" by Felix Winkelnkemper, used under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / background removed and incorporated into photo montage
+>
+>[Amstrad PCW 9512 microcomputer, 1987](https://collection.sciencemuseumgroup.org.uk/objects/co8413214/amstrad-pcw-9512-microcomputer)" by [Science Museum Group Collection](https://collection.sciencemuseumgroup.org.uk/), used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) / background removed and incorporated into photo montage
