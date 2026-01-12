@@ -151,6 +151,6 @@ My plans are to get back into programming in BASIC and to also learn Z80 assembl
 >
 >[Commodore 16 home computer](https://commons.wikimedia.org/wiki/File:Commodore_16_002f.jpg)" by [Ubcule](https://commons.wikimedia.org/wiki/User:Ubcule), used under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) / incorporated into photo montage
 >
->[An Apple IIe with two disk drives and a joystick attached running ProDOS.](https://commons.wikimedia.org/wiki/File:Apple_IIe_running_ProDOS.jpg)" by Felix Winkelnkemper, used under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / background removed and incorporated into photo montage
+>[An Apple IIe with two disk drives and a joystick attached running ProDOS.](https://commons.wikimedia.org/wiki/File:Apple_IIe_running_ProDOS.jpg)" by Felix Winkelnkemper, used under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) / background removed, monitor screen blurred and incorporated into photo montage
 >
 >[Amstrad PCW 9512 microcomputer, 1987](https://collection.sciencemuseumgroup.org.uk/objects/co8413214/amstrad-pcw-9512-microcomputer)" by [Science Museum Group Collection](https://collection.sciencemuseumgroup.org.uk/), used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) / background removed and incorporated into photo montage
