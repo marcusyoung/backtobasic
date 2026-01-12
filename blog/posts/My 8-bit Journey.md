@@ -106,7 +106,7 @@ At this time we did not have any desktop computers within our section. IBM PC cl
 
 I borrowed the Apple IIe and took it back to my bedroom in a shared Victorian terraced house on Homerton Street (demolished some decades ago) and then spent several weeks in my spare time after work writing a program in Applesoft BASIC to automate all the manual processes (apart from the identification and counting itself of course). I don't think I even told my colleagues what I was doing!
 
-Some time later I presented the program to one of my colleagues. With a a bit of a smirk he started bashing away on the keyboard, randomly entering values and pressing keys. He was convinced that he was going to be able to crash the program in no time at all.  He failed. I'd done a really thorough job, with lots of error checking and validation. And I was chuffed! 
+Some time later I presented the program to one of my colleagues. With a bit of a smirk he started bashing away on the keyboard, randomly entering values and pressing keys. He was convinced that he was going to be able to crash the program in no time at all.  He failed. I'd done a really thorough job, with lots of error checking and validation. And I was chuffed! 
 
 For a scientific data collection program where losing counts after an hour of microscope work would be crushing, this level of robustness was absolutely critical. We started using the program straight away, and it was still being used when I moved on to a different job within Anglian Water in 1991. I'm going to write a separate blog post looking at the program in much more detail as I still have a printed listing of v1.2 (see below).
 
