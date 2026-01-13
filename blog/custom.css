@@ -23,22 +23,21 @@ pre {
 }
 
 
-/* For captions in separate paragraphs (after you add blank lines) */
-
-p:has(div[style*="aspect-ratio"]) + p:has(> em:only-child) {
+/* Center and style captions that follow images */
+div[style*="aspect-ratio"] + p {
   text-align: center !important;
-  margin-top: -17px;
+  margin-top: -1rem;
 }
 
-/* Style the em inside */
-p:has(div[style*="aspect-ratio"]) + p > em:only-child {
+div[style*="aspect-ratio"] + p > em {
   display: block;
   font-size: 0.9em;
 }
 
-/* Keep some bottom margin on image containers */
+/* Remove bottom margin on image containers */
 p:has(div[style*="aspect-ratio"]) {
   margin-bottom: 0;
 }
+
 
 
