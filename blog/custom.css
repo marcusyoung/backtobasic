@@ -24,14 +24,21 @@ pre {
 
 
 /* For captions in separate paragraphs (after you add blank lines) */
+
+p:has(div[style*="aspect-ratio"]) + p:has(> em:only-child) {
+  text-align: center;
+  margin-top: -17px;
+}
+
+/* Style the em inside */
 p:has(div[style*="aspect-ratio"]) + p > em:only-child {
   display: block;
-  text-align: center;
   font-size: 0.9em;
-  margin-top: -17px; /* Pulls caption up (25px bottom - 8px you had = 17px) */
 }
 
 /* Keep some bottom margin on image containers */
 p:has(div[style*="aspect-ratio"]) {
-  margin-bottom: 0; /* Remove since caption paragraph provides spacing */
+  margin-bottom: 0;
 }
+
+
