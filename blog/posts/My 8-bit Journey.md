@@ -44,7 +44,7 @@ I have one surviving listing of one of my own programs, printed using the ZX Pri
     
 - **Memory management** - checks available RAM before adding transactions
 
-![Money Manager programme listing (part)](assets/money-manager2.jpg "Money Manager programme listing (part)")
+![Money Manager programme listing (part)](money-manager2.jpg "Money Manager programme listing (part)")
 
 *Money Manager programme listing (part)*
 
@@ -112,7 +112,7 @@ Some time later I presented the program to one of my colleagues. With a bit of a
 
 For a scientific data collection program where losing counts after an hour of microscope work would be crushing, this level of robustness was absolutely critical. We started using the program straight away, and it was still being used when I moved on to a different job within Anglian Water in 1991. I'm going to write a separate blog post looking at the program in much more detail as I still have a printed listing of v1.2 (see below).
 
-![Algal Count programme listing (part)](assets/algalcount.jpg "Algal Count programme listing (part)")
+![Algal Count programme listing (part)](algalcount.jpg "Algal Count programme listing (part)")
 
 *Algal Count programme listing (part)*
 
@@ -120,7 +120,7 @@ For a scientific data collection program where losing counts after an hour of mi
 
 Also in 1990 I bought myself an Amstrad PCW 9512 from Robert Sayle (part of John Lewis) in Cambridge, which came complete with a daisy wheel printer. I used this mainly for word processing and a bit later purchased a Star Micronics  LC-24-10 dot matrix printer. The photo below shows my setup in 1991, shortly after I'd bought my first house in Ely, Cambridgeshire. You can see the Star printer on the top of the desk, and the daisy wheel printer is on the lower shelf with my Brother electronic typewriter (on the right).
 
-![Amstrad PCW 9512 on my desk (1991)](assets/pcw9512.jpg "Amstrad PCW 9512 on my desk (1991)")
+![Amstrad PCW 9512 on my desk (1991)](pcw9512.jpg "Amstrad PCW 9512 on my desk (1991)")
 
 *Amstrad PCW 9512 on my desk (1991)*
 
