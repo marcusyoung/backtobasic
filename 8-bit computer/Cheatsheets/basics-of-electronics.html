@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electronics Fundamentals — Quick Reference (Print)</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f4f0;
+    --panel: #ffffff;
+    --border: #d8d4cc;
+    --accent:  #0077aa;
+    --accent2: #c94a00;
+    --accent3: #2a8a2a;
+    --accent4: #9a6c00;
+    --text: #1a1e28;
+    --dim: #5a5e6a;
+    --mono: 'Share Tech Mono', monospace;
+    --sans: 'Barlow', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-weight: 300;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-family: var(--mono);
+    font-size: 1.1rem;
+    color: var(--accent);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+  }
+
+  .subtitle {
+    color: var(--dim);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 2rem;
+    font-family: var(--mono);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    max-width: 1100px;
+  }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  }
+
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+  }
+
+  .card.blue::before  { background: var(--accent); }
+  .card.orange::before { background: var(--accent2); }
+  .card.green::before  { background: var(--accent3); }
+  .card.yellow::before { background: var(--accent4); }
+
+  .card-label {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  .blue .card-label   { color: var(--accent); }
+  .orange .card-label { color: var(--accent2); }
+  .green .card-label  { color: var(--accent3); }
+  .yellow .card-label { color: var(--accent4); }
+
+  .quantity-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .symbol {
+    font-family: var(--mono);
+    font-size: 1.6rem;
+    font-weight: 700;
+    min-width: 1.8rem;
+  }
+  .blue .symbol   { color: var(--accent); }
+  .orange .symbol { color: var(--accent2); }
+  .green .symbol  { color: var(--accent3); }
+  .yellow .symbol { color: var(--accent4); }
+
+  .quantity-info { flex: 1; }
+
+  .quantity-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text);
+  }
+
+  .quantity-unit {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--dim);
+    margin-top: 0.1rem;
+  }
+
+  .quantity-def {
+    font-size: 0.82rem;
+    color: var(--dim);
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+    padding-left: 2.55rem;
+  }
+
+  .analogy {
+    background: var(--bg);
+    border-left: 2px solid var(--border);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.78rem;
+    color: var(--dim);
+    line-height: 1.5;
+    font-style: italic;
+  }
+
+  .triangle-card { grid-column: span 2; }
+
+  @media (max-width: 620px) {
+    .triangle-card { grid-column: span 1; }
+  }
+
+  .triangle-wrap {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .triangle-svg { flex-shrink: 0; }
+
+  .formulas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .formula-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .formula-box {
+    font-family: var(--mono);
+    font-size: 1rem;
+    background: #eef4f8;
+    border: 1px solid #b8cdd8;
+    border-radius: 3px;
+    padding: 0.3rem 0.6rem;
+    min-width: 110px;
+    text-align: center;
+    color: var(--text);
+  }
+
+  .formula-hint {
+    font-size: 0.78rem;
+    color: var(--dim);
+  }
+
+  .example-card { grid-column: span 2; }
+
+  @media (max-width: 620px) {
+    .example-card { grid-column: span 1; }
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+  }
+
+  .step {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 0.75rem;
+  }
+
+  .step-num {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--accent2);
+    letter-spacing: 0.15em;
+    margin-bottom: 0.35rem;
+  }
+
+  .step-formula {
+    font-family: var(--mono);
+    font-size: 0.9rem;
+    color: var(--text);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-note {
+    font-size: 0.75rem;
+    color: var(--dim);
+    line-height: 1.4;
+  }
+
+  @media print {
+    body { padding: 1rem; background: #fff; }
+    .card { box-shadow: none; border: 1px solid #ccc; }
+    .step { background: #f8f8f8; }
+    .analogy { background: #f8f8f8; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Electronics Fundamentals</h1>
+<p class="subtitle">// Quick Reference — Voltage · Current · Resistance · Power</p>
+
+<div class="grid">
+
+  <!-- V -->
+  <div class="card blue">
+    <div class="card-label">Quantity 01</div>
+    <div class="quantity-row">
+      <div class="symbol">V</div>
+      <div class="quantity-info">
+        <div class="quantity-name">Voltage</div>
+        <div class="quantity-unit">Unit: Volts (V)</div>
+      </div>
+    </div>
+    <div class="quantity-def">The electrical pressure that drives current around a circuit. Also called electromotive force (EMF) or potential difference.</div>
+    <div class="analogy">Water analogy: the pressure in the pipe — how hard the water is being pushed.</div>
+  </div>
+
+  <!-- I -->
+  <div class="card orange">
+    <div class="card-label">Quantity 02</div>
+    <div class="quantity-row">
+      <div class="symbol">I</div>
+      <div class="quantity-info">
+        <div class="quantity-name">Current</div>
+        <div class="quantity-unit">Unit: Amperes (A) · milliamperes (mA)</div>
+      </div>
+    </div>
+    <div class="quantity-def">The rate of flow of electrical charge around a circuit. 1 mA = 0.001 A. LEDs typically run at 5–20 mA.</div>
+    <div class="analogy">Water analogy: how many litres flow past a point per second.</div>
+  </div>
+
+  <!-- R -->
+  <div class="card green">
+    <div class="card-label">Quantity 03</div>
+    <div class="quantity-row">
+      <div class="symbol">R</div>
+      <div class="quantity-info">
+        <div class="quantity-name">Resistance</div>
+        <div class="quantity-unit">Unit: Ohms (Ω) · kilohms (kΩ)</div>
+      </div>
+    </div>
+    <div class="quantity-def">Opposition to the flow of current. Higher resistance means less current for a given voltage. 1 kΩ = 1,000 Ω.</div>
+    <div class="analogy">Water analogy: the narrowness of the pipe — a tighter pipe restricts flow.</div>
+  </div>
+
+  <!-- P -->
+  <div class="card yellow">
+    <div class="card-label">Quantity 04</div>
+    <div class="quantity-row">
+      <div class="symbol">P</div>
+      <div class="quantity-info">
+        <div class="quantity-name">Power</div>
+        <div class="quantity-unit">Unit: Watts (W) · milliwatts (mW)</div>
+      </div>
+    </div>
+    <div class="quantity-def">The rate at which energy is consumed or converted. Resistors dissipate power as heat — stay within their watt rating.</div>
+    <div class="analogy">Water analogy: the rate at which the flowing water turns a waterwheel — how fast work is being done.</div>
+  </div>
+
+  <!-- Ohm's Law Triangle -->
+  <div class="card blue triangle-card">
+    <div class="card-label">Ohm's Law — Cover the unknown to find the formula</div>
+    <div class="triangle-wrap">
+
+      <svg class="triangle-svg" width="160" height="140" viewBox="0 0 160 140">
+        <polygon points="80,8 158,132 2,132" fill="#f0f6fa" stroke="#b8cdd8" stroke-width="2"/>
+        <line x1="2" y1="82" x2="158" y2="82" stroke="#b8cdd8" stroke-width="1.5"/>
+        <line x1="80" y1="82" x2="80" y2="132" stroke="#b8cdd8" stroke-width="1.5"/>
+        <text x="80" y="60" text-anchor="middle" font-family="Share Tech Mono" font-size="28" font-weight="700" fill="#0077aa">V</text>
+        <text x="42" y="118" text-anchor="middle" font-family="Share Tech Mono" font-size="24" font-weight="700" fill="#c94a00">I</text>
+        <text x="118" y="118" text-anchor="middle" font-family="Share Tech Mono" font-size="24" font-weight="700" fill="#2a8a2a">R</text>
+        <text x="80" y="138" text-anchor="middle" font-family="Share Tech Mono" font-size="8" fill="#888">cover the unknown</text>
+      </svg>
+
+      <div class="formulas">
+        <div class="formula-row">
+          <div class="formula-box">V = I × R</div>
+          <div class="formula-hint">Cover V → I and R side by side = multiply</div>
+        </div>
+        <div class="formula-row">
+          <div class="formula-box">I = V ÷ R</div>
+          <div class="formula-hint">Cover I → V above R = divide</div>
+        </div>
+        <div class="formula-row">
+          <div class="formula-box">R = V ÷ I</div>
+          <div class="formula-hint">Cover R → V above I = divide</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Power Triangle -->
+  <div class="card yellow">
+    <div class="card-label">Power Triangle</div>
+    <div class="triangle-wrap">
+      <svg width="120" height="110" viewBox="0 0 120 110">
+        <polygon points="60,6 118,104 2,104" fill="#fdf8ec" stroke="#d8c888" stroke-width="2"/>
+        <line x1="2" y1="64" x2="118" y2="64" stroke="#d8c888" stroke-width="1.5"/>
+        <line x1="60" y1="64" x2="60" y2="104" stroke="#d8c888" stroke-width="1.5"/>
+        <text x="60" y="48" text-anchor="middle" font-family="Share Tech Mono" font-size="22" font-weight="700" fill="#9a6c00">P</text>
+        <text x="32" y="92" text-anchor="middle" font-family="Share Tech Mono" font-size="18" font-weight="700" fill="#c94a00">I</text>
+        <text x="90" y="92" text-anchor="middle" font-family="Share Tech Mono" font-size="18" font-weight="700" fill="#0077aa">V</text>
+        <text x="60" y="108" text-anchor="middle" font-family="Share Tech Mono" font-size="7" fill="#888">cover the unknown</text>
+      </svg>
+      <div class="formulas">
+        <div class="formula-row">
+          <div class="formula-box">P = I × V</div>
+        </div>
+        <div class="formula-row">
+          <div class="formula-box">I = P ÷ V</div>
+        </div>
+        <div class="formula-row">
+          <div class="formula-box">V = P ÷ I</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Energy note -->
+  <div class="card yellow">
+    <div class="card-label">Energy vs Power</div>
+    <div style="font-size:0.85rem; line-height:1.6; color:var(--dim); margin-bottom:0.5rem;">
+      Power is the <em style="color:var(--text)">rate</em> of energy use. Energy is the total amount consumed over time.
+    </div>
+    <div class="formula-row" style="margin-bottom:0.5rem;">
+      <div class="formula-box" style="background:#fdf8ec; border-color:#d8c888; font-size:0.85rem;">Energy = P × Time</div>
+    </div>
+    <div style="font-size:0.78rem; color:var(--dim); line-height:1.5;">
+      Energy unit: <strong style="color:var(--text)">Joules (J)</strong> in physics<br>
+      On your electricity bill: <strong style="color:var(--text)">kilowatt-hours (kWh)</strong>
+    </div>
+  </div>
+
+  <!-- LED Worked Example -->
+  <div class="card orange example-card">
+    <div class="card-label">Worked Example — LED Current Limiting Resistor</div>
+    <div style="font-size:0.82rem; color:var(--dim); margin-bottom:0.5rem;">
+      Supply: 5 V &nbsp;·&nbsp; Red LED forward voltage (V<sub>LED</sub>): 2 V &nbsp;·&nbsp; Target current (I<sub>LED</sub>): 10 mA
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">STEP 01</div>
+        <div class="step-formula">V_R = 5 − 2 = 3 V</div>
+        <div class="step-note">Subtract the LED's forward voltage from supply. The resistor must drop this remainder.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">STEP 02</div>
+        <div class="step-formula">R = 3 ÷ 0.01 = 300 Ω</div>
+        <div class="step-note">Ohm's Law: R = V ÷ I. Use 0.01 A (= 10 mA). Round up to nearest standard value.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">STEP 03</div>
+        <div class="step-formula">→ Use 330 Ω</div>
+        <div class="step-note">Nearest standard value above 300 Ω. Ben Eater uses this throughout his build.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">STEP 04 — CHECK</div>
+        <div class="step-formula">P = 3 × 0.01 = 0.03 W</div>
+        <div class="step-note">Power in resistor = V_R × I. Well under ¼ W rating of a standard resistor. Safe.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LED forward voltages -->
+  <div class="card green">
+    <div class="card-label">LED Forward Voltages (V<sub>LED</sub>)</div>
+    <div style="margin-top:0.25rem;">
+      <div style="display:flex; justify-content:space-between; padding:0.35rem 0; border-bottom:1px solid var(--border); font-size:0.82rem;">
+        <span style="display:flex;align-items:center;gap:0.5rem;"><span style="width:10px;height:10px;border-radius:50%;background:#dd2222;display:inline-block;"></span> Red</span>
+        <span style="font-family:var(--mono); color:var(--text);">1.8 – 2.2 V</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; padding:0.35rem 0; border-bottom:1px solid var(--border); font-size:0.82rem;">
+        <span style="display:flex;align-items:center;gap:0.5rem;"><span style="width:10px;height:10px;border-radius:50%;background:#ccaa00;display:inline-block;"></span> Yellow</span>
+        <span style="font-family:var(--mono); color:var(--text);">2.0 – 2.2 V</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; padding:0.35rem 0; border-bottom:1px solid var(--border); font-size:0.82rem;">
+        <span style="display:flex;align-items:center;gap:0.5rem;"><span style="width:10px;height:10px;border-radius:50%;background:#228822;display:inline-block;"></span> Green</span>
+        <span style="font-family:var(--mono); color:var(--text);">2.0 – 3.5 V</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; padding:0.35rem 0; border-bottom:1px solid var(--border); font-size:0.82rem;">
+        <span style="display:flex;align-items:center;gap:0.5rem;"><span style="width:10px;height:10px;border-radius:50%;background:#2255cc;display:inline-block;"></span> Blue</span>
+        <span style="font-family:var(--mono); color:var(--text);">3.0 – 3.5 V</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; padding:0.35rem 0; font-size:0.82rem;">
+        <span style="display:flex;align-items:center;gap:0.5rem;"><span style="width:10px;height:10px;border-radius:50%;background:#fff;border:1px solid #aaa;display:inline-block;"></span> White</span>
+        <span style="font-family:var(--mono); color:var(--text);">3.0 – 3.5 V</span>
+      </div>
+    </div>
+    <div style="margin-top:0.75rem; font-size:0.75rem; color:var(--dim);">Always check the datasheet for your specific LED. If unavailable: assume 2 V for red/yellow, 3.2 V for blue/white.</div>
+  </div>
+
+  <!-- Water analogy summary -->
+  <div class="card blue" style="grid-column: 1 / -1;">
+    <div class="card-label">The Water Pipe Analogy — at a glance</div>
+    <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:0.5rem; margin-top:0.5rem;">
+      <div style="text-align:center; padding:0.5rem;">
+        <div style="font-size:1.6rem; margin-bottom:0.3rem;">💧</div>
+        <div style="font-family:var(--mono); font-size:0.85rem; color:var(--accent); margin-bottom:0.2rem;">Voltage (V)</div>
+        <div style="font-size:0.75rem; color:var(--dim);">Water pressure pushing through the pipe</div>
+      </div>
+      <div style="text-align:center; padding:0.5rem;">
+        <div style="font-size:1.6rem; margin-bottom:0.3rem;">🌊</div>
+        <div style="font-family:var(--mono); font-size:0.85rem; color:var(--accent2); margin-bottom:0.2rem;">Current (I)</div>
+        <div style="font-size:0.75rem; color:var(--dim);">Flow rate — litres passing a point per second</div>
+      </div>
+      <div style="text-align:center; padding:0.5rem;">
+        <div style="font-size:1.6rem; margin-bottom:0.3rem;">🔧</div>
+        <div style="font-family:var(--mono); font-size:0.85rem; color:var(--accent3); margin-bottom:0.2rem;">Resistance (R)</div>
+        <div style="font-size:0.75rem; color:var(--dim);">Narrowness of the pipe — restricts flow</div>
+      </div>
+      <div style="text-align:center; padding:0.5rem;">
+        <div style="font-size:1.6rem; margin-bottom:0.3rem;">⚙️</div>
+        <div style="font-family:var(--mono); font-size:0.85rem; color:var(--accent4); margin-bottom:0.2rem;">Power (P)</div>
+        <div style="font-size:0.75rem; color:var(--dim);">Rate the water turns a waterwheel — work done per second</div>
+      </div>
+    </div>
+    <div style="margin-top:0.75rem; padding:0.6rem 0.75rem; background:var(--bg); border:1px solid var(--border); border-radius:3px; font-size:0.78rem; color:var(--dim); font-style:italic;">
+      Key rule: Higher pressure (V) through the same pipe (R) = more flow (I). The resistor narrows the pipe to keep current within safe limits.
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

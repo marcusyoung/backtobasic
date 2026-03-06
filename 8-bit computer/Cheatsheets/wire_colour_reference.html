@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wire Colour Reference — Ben Eater 8-bit Computer</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;600;700&display=swap');
+
+  :root {
+    --bg: #f5f4f0;
+    --panel: #ffffff;
+    --border: #d0ccc4;
+    --text: #1a1e28;
+    --dim: #5a5e6a;
+    --mono: 'Share Tech Mono', monospace;
+    --sans: 'Barlow', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-weight: 300;
+    padding: 1.5rem;
+  }
+
+  header {
+    border-bottom: 2px solid var(--text);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  h1 {
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+
+  .subtitle {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--dim);
+    letter-spacing: 0.1em;
+    margin-top: 0.2rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .swatch {
+    width: 18px;
+    flex-shrink: 0;
+  }
+
+  .card-body {
+    padding: 0.65rem 0.75rem;
+    flex: 1;
+  }
+
+  .card-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .colour-name {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+
+  .purpose {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .rule {
+    font-size: 0.72rem;
+    color: var(--dim);
+    font-style: italic;
+    margin-bottom: 0.45rem;
+    line-height: 1.4;
+  }
+
+  .examples {
+    list-style: none;
+    padding: 0;
+  }
+
+  .examples li {
+    font-size: 0.7rem;
+    color: var(--dim);
+    line-height: 1.5;
+    padding-left: 0.8rem;
+    position: relative;
+  }
+
+  .examples li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--border);
+  }
+
+  .swatch-red    { background: #cc2200; }
+  .swatch-black  { background: #1a1a1a; }
+  .swatch-yellow { background: #e6b800; }
+  .swatch-blue   { background: #0055cc; }
+  .swatch-green  { background: #1a7a1a; }
+  .swatch-white  { background: #ffffff; border-right: 1px solid var(--border); }
+
+  .name-red    { color: #cc2200; }
+  .name-black  { color: #1a1a1a; }
+  .name-yellow { color: #9a7a00; }
+  .name-blue   { color: #0055cc; }
+  .name-green  { color: #1a7a1a; }
+  .name-white  { color: #888; }
+
+  .sacred-note {
+    margin-top: 0.75rem;
+    background: #fff8e6;
+    border: 1px solid #e6cc88;
+    border-radius: 3px;
+    padding: 0.55rem 0.75rem;
+    font-size: 0.7rem;
+    color: #5a4a00;
+    line-height: 1.6;
+    font-family: var(--mono);
+  }
+
+  .sacred-note strong {
+    display: block;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+  }
+
+  @media print {
+    body { background: #fff; padding: 1rem; }
+    .card { box-shadow: none; }
+    .sacred-note { background: #fffaea; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Wire Colour Reference</h1>
+  <p class="subtitle">// Ben Eater 8-bit Computer Build — Marcus</p>
+</header>
+
+<div class="grid">
+
+  <div class="card">
+    <div class="swatch swatch-red"></div>
+    <div class="card-body">
+      <div class="card-header">
+        <span class="colour-name name-red">Red</span>
+        <span class="purpose">+5V Power</span>
+      </div>
+      <p class="rule">Any wire carrying +5V supply. Never reuse for signals.</p>
+      <ul class="examples">
+        <li>Power rail to pin 8 (Vcc) on each 555 timer</li>
+        <li>Power rail to pin 14 (Vcc) on 74LS logic chips</li>
+        <li>Power rail to pin 4 (Reset) on 555 — tied permanently high</li>
+        <li>PN Labs Protect Nano 5V output to main power rail</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="swatch swatch-black"></div>
+    <div class="card-body">
+      <div class="card-header">
+        <span class="colour-name name-black">Black</span>
+        <span class="purpose">GND</span>
+      </div>
+      <p class="rule">Any wire carrying ground. Never reuse for signals.</p>
+      <ul class="examples">
+        <li>Pin 1 (GND) on each 555 timer to ground rail</li>
+        <li>Pin 7 (GND) on each 74LS logic chip to ground rail</li>
+        <li>Negative leg of clock LED to ground via 220&#x3A9; resistor</li>
+        <li>Decoupling capacitor negative legs to ground rail</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="swatch swatch-yellow"></div>
+    <div class="card-body">
+      <div class="card-header">
+        <span class="colour-name name-yellow">Yellow</span>
+        <span class="purpose">8-bit Data Bus</span>
+      </div>
+      <p class="rule">All 8 bus lines, consistently yellow across every module.</p>
+      <ul class="examples">
+        <li>Not present in clock module — clock produces timing, not data</li>
+        <li>A register output lines to central bus (8 wires, one per bit)</li>
+        <li>B register output lines to central bus</li>
+        <li>ALU result lines to central bus</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="swatch swatch-blue"></div>
+    <div class="card-body">
+      <div class="card-header">
+        <span class="colour-name name-blue">Blue</span>
+        <span class="purpose">Clock Signal (CLK)</span>
+      </div>
+      <p class="rule">The CLK line wherever it travels across the board.</p>
+      <ul class="examples">
+        <li>CLK output from U5C / U4F leaving the clock module</li>
+        <li>CLK wire running to registers, program counter, RAM</li>
+        <li>CLK&#x305; (inverted clock) line where needed</li>
+        <li>Astable 555 output into logic gate network</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="swatch swatch-green"></div>
+    <div class="card-body">
+      <div class="card-header">
+        <span class="colour-name name-green">Green</span>
+        <span class="purpose">Control Signals</span>
+      </div>
+      <p class="rule">Wires giving a module permission to act. Ask: "is this enabling something?"</p>
+      <ul class="examples">
+        <li>HLT input to clock module — halts clock from CPU</li>
+        <li>Bistable output switching auto / manual clock mode</li>
+        <li>Write enable (WE) into RAM module</li>
+        <li>Output enable (OE) lines on register chips</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="swatch swatch-white"></div>
+    <div class="card-body">
+      <div class="card-header">
+        <span class="colour-name name-white">White</span>
+        <span class="purpose">Module-Internal Wiring</span>
+      </div>
+      <p class="rule">Stays within one module's area. A long white wire is a warning sign.</p>
+      <ul class="examples">
+        <li>Pin 2 and pin 6 of astable 555 joined together</li>
+        <li>Junction between 1k&#x3A9; fixed resistor and potentiometer</li>
+        <li>Astable 555 output into AND gate (U5A) pin 2</li>
+        <li>SR flip-flop connections inside the bistable circuit</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="sacred-note">
+  <strong>// Golden Rules</strong>
+  Red and Black are sacred — never reuse for signals under any circumstances.<br>
+  Yellow bus lines must be consistent across every module on the board.<br>
+  If short of a colour mid-module, borrow White — never raid power or bus colours.<br>
+  Cirkit uses light blue for GND — ignore it. Your physical standard is what counts.
+</div>
+
+</body>
+</html>
